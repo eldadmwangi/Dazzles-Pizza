@@ -28,6 +28,78 @@
         <p>eldad </p>
         <img src="images/pizza.jpeg">
 
+
+        <div class="container-fluid" id="formcontainer">
+            <div class = "formdata">
+            <div class="row">
+                <form id = "my-Form">
+                        <h2>Dazzle's Order</h2>
+                        <div class="form-group">
+                          <div class="col">
+                         <label>Pizza type:</label>
+                            <select class="form-control" id="type"> 
+                                <option>St.Louis</option>
+                                <option>Detroit</option>
+                                <option>California</option>
+                            </select>
+                          </div>
+                        </div><br>
+                        <div class="form-group">
+                          <div class="col">
+                            <label>size:</label>
+                            <select class="form-control" id="size">
+                                <option value="1">Large---Ksh.1500</option>
+                                <option value="2">Medium---Ksh.1000</option>
+                                <option value="3">Small---Ksh.700</option>
+                            </select>
+                        </div>
+                        </div><br>
+                        <div class="form-group">
+                          <div class = "col">
+                            <label>Select crust:</label>
+                            <select class="form-control" id="crust-type">
+                                <option>Gluten-free</option>
+                                <option>Stuffed</option>
+                                <option>crispy</option>
+                            </select>
+                          </div>
+                          </div><br>
+                          <div class="form-group">
+                            <div class = "col">
+                              <label> topping:</label>
+                              <select class="form-control" id="topping">
+                                  <option>Pepperoni</option>
+                                  <option>extra-cheese</option>
+                                  <option>onions</option>
+                              </select>
+                          </div>
+                        </div><br>
+                          
+                        <div class="form-group" required>
+                            <div class = "col">
+                              <label>Quantity:</label>
+                              <input type="number" id="quantity" class="form-control" min="1" required>
+                          </div><br>
+                          
+                          <div class="form-group" required="">
+                            <div class = "col">
+                              <label>Delivery point:</label>
+                              <select class="form-control" id="point">
+                                  <option value="1">Take Away</option>
+                                  <option value="2"> delivery fee 100</option>
+          
+                              </select>
+                            </div>
+                          </div><br>
+                          
+                          <div class="form-group">
+                            <div class = "col">
+                              <button type="submit" class="btn btn-primary btn-block">make order</button>
+          
+                          </div>
+                      </form>
+                  </div>
+
         <div class="footer">
             <p>dazzle's pizza</p>
             <ul>
